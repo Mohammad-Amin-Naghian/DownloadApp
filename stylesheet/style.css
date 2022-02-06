@@ -1,0 +1,73 @@
+@font-face {
+    src: url("/storage/font/vazir-font-v16.1.0/Vazir.ttf");
+    font-family: 'ArabicBold';
+
+}
+body {
+    font-family: ArabicBold;
+    background-image: linear-gradient(#E7BBB1,#EA7C7C) ;
+    background-attachment: fixed;
+}
+@media screen and (min-width: 360px) and (max-width: 414px){
+    .logo_asbina {
+        margin-top: -40px!important;
+    }
+    .btn_present {
+        margin-top: 29px!important;
+    }
+    .sec-links-app-download {
+        margin-top: 8px!important;
+    }
+
+}
+@media screen and (min-width: 414px) and (max-width: 571px){
+    .logo_asbina {
+        margin-top: -40px!important;
+    }
+    .btn_present {
+        margin-top: 29px!important;
+    }
+    .sec-links-app-download {
+        margin-top: 45px!important;
+    }
+}
+@media screen and (max-width: 280px){
+    .logo_asbina {
+        width: 47%;
+        margin-top: -26px!important;
+    }
+    .btn_present {
+        width: 100%;
+        margin-top: -78px!important;
+        font-size: 14px!important;
+    }
+    .sec-links-app-download {
+        margin-top: 45px!important;
+    }
+}
+@media screen and (min-width: 820px) and (max-width: 912px){
+    .sec-links-app-download {
+        margin-top: 55px!important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sec-links-app-download {
+        margin-top: 55px!important;
+    }
+}
+.btn_present:hover {
+    background-color: #D67E7E!important;
+}
+@media screen and (min-width: 281px) and (max-width: 370px){
+    .btn_present {
+        font-size: 17px!important;
+    }
+}
+@media screen and (min-width: 358px){
+    .logo_asbina {
+        margin-top: -48px!important;
+    }
+    .btn_present {
+        margin-top: 25px!important;
+    }
+}
